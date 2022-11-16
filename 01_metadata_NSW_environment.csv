@@ -1,0 +1,14 @@
+﻿Code,Description,Units,Continous (Cont) or Categorical (Cat),Notes
+cti,compound topographic index- a quantification of the position of a site in the local landscape,number (dimensionless index),Cont,"Often referred to as the steady state wetness index; defined as: CTI = ln ( As / tanB ), where 'As' is the specific catchment area expressed as m2 per unit width orthogonal to the flow direction and 'B' is the slope angle"
+disturb,"disturbance (clearing, logging etc)",number (ordinal),Cont,index. 1 = light to 4 = heavy
+mi,moisture index.,number (dimensionless index),Cont,"Index of site wetness derived from a water balance algorithm using rainfall, evaporation, radiation and soil depth as inputs. Ranges between 0 (dry) and 100 (wet)"
+rainann,mean annual rainfall,Mm,Cont,
+raindq,mean rainfall of the driest quarter,Mm,Cont,
+rugged,ruggedness,number (dimensionless index),Cont,Coefficient of variation of raster cells within 1km of cell of interest
+soildepth,mean soil depth,m *1000,Cont,"predicted from a model relating sampled soil depths to climate, geology and topography"
+soilfert,soil fertility,number (ordinal),Cont,class 1 (low) to 5 (high) derived from soil landscape mapping and modeling of geochemical data. Ordered; can be treated as continuous
+solrad,annual mean solar radiation,MJm-2 day-1 * 10,Cont,Terrain adjusted radiation
+tempann,annual mean temperature,°C * 10,Cont,
+tempmin,minimum temperature of the coldest month,°C * 10,Cont,
+topo,topographic position,m,Cont,"Mean difference in elevation between raster cell of interest and all cells within 1km radius (-ve values are gullies, +ve are ridges)"
+vegsys,broad vegetation type,number (category),Cat,1 = Rainforest; 2 = Moist open forest; 3 = Dry open forest; 4 = Woodland; 5 = Coastal sclerophyll complex; 6 = Plateau sclerophyll complex; 7 = Disturbed remnant; 8 = Exotic (pine) plantation; 9 = Cleared
